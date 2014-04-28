@@ -1,0 +1,12 @@
+apply plugin: 'jmeter2'
+
+buildscript {
+    dependencies {
+        classpath files('/Users/danielr928/dev/Sandbox/jmeter-gradle-plugin/build/libs/jmeter-gradle-plugin-1.3.3-2.9-SNAPSHOT.jar')
+    }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
